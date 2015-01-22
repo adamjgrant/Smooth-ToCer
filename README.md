@@ -61,3 +61,13 @@ jQuery is being used above only to select the elements to pass into `smoothtocer
 
 To add a heading that should not be added to the ToC, simply add the class `.toc-exempt`
 
+## Troubleshooting
+
+### Must be a strict h1-6 structure
+
+At this time, the ToCer does not work with content whose first heading is not an `<h1>` or
+content that skips levels. So the below will not work for two reasons.
+
+    <h2>News</h2>
+
+    <h4>United States</h4>
