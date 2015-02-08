@@ -52,8 +52,8 @@ Here's an example with jQuery (which is optional, by the way)
 
     smoothtocer($('.toc'), $('.content'));
 
-`smoothtocer` takes just two arguments, the content to be indexed and the container 
-that will hold the ToC.
+`smoothtocer` takes just two arguments, the container 
+that will hold the ToC and the content to be indexed.
 
 jQuery is being used above only to select the elements to pass into `smoothtocer()`.
 
