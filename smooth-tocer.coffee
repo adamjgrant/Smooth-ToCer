@@ -38,8 +38,8 @@ window.smoothtocer = ($toc_container, $content) ->
         if $thisHeadingLevel < $headingLevel
           $stepsUp = $headingLevel - $thisHeadingLevel
 
-          while $stepsUp > -1
-            $targetNode = $targetNode.parentNode
+          while $stepsUp > 0
+            $targetNode = $targetNode.parentNode.parentNode
             $stepsUp--
 
           $headingLevel = $thisHeadingLevel
