@@ -79,3 +79,5 @@ I recommend setting a parent scope in your css like
     .content-to-be-indexed
     
 And setting the desired styling of the `<hn>` elements below it.
+
+    .content-to-be-indexed h1 { font-size: 20px; }
