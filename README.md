@@ -71,3 +71,11 @@ content that skips levels. So the below will not work for two reasons.
     <h2>News</h2>
 
     <h4>United States</h4>
+    
+This is intentional. To separate concerns of HTML and CSS (structure vs style) Heading numbers should not be set to reflect the font-size desired but the logical hierarchy and sequencing of the page's content.
+
+I recommend setting a parent scope in your css like
+
+    .content-to-be-indexed
+    
+And setting the desired styling of the `<hn>` elements below it.
